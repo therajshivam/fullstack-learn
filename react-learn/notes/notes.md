@@ -21,3 +21,18 @@ React makes a single page application (SPA), Page does not reload. For this page
 - Learn Backend
 - React is not a complete solution in most case (no SEO, browser render of JS, no routing)  
 - Framework (Nextjs, Gatsby, Remix)
+
+## React Overview : 
+Library is **REACT**.   
+With this we got more attachment : **REACT-DOM** and **REACT NATIVE**.  
+For Websites - REACT and REACT-DOM.  
+For Mobile Apps - REACT and REACT-NATIVE.
+
+
+## Create React Project :
+npx -> Node Package Executor
+### From create-react-app Utility
+npx create-react-app filename   
+
+This is a very bulky utility, adds unnecessary files. Packages size are big.  
+Therefore recommend to use **Vite** or **Parcel**. These are bundler utilities. 
