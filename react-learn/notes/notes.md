@@ -31,8 +31,35 @@ For Mobile Apps - REACT and REACT-NATIVE.
 
 ## Create React Project :
 npx -> Node Package Executor
-### From create-react-app Utility
-npx create-react-app filename   
+### 1. From create-react-app Utility
+create project -> npx create-react-app filename   
 
 This is a very bulky utility, adds unnecessary files. Packages size are big.  
 Therefore recommend to use **Vite** or **Parcel**. These are bundler utilities. 
+
+Go to package.json -> it is the entry point. 
+
+run the project -> npm run start 
+
+npm run start -> runs the build command which will go for production. It will create a build folder. This folder contains static assets, javascript. Build folder is serve to users not src folder. 
+
+Create-react-app is not a good way to create react project as it takes too time and its bulky. Hence use Vite.
+
+#### Folder Structure
+
+- **src:** folder is the main workspace where almost all the codes are written. main componets are only **App.js** and **index.js**. Codes are written in the App.js and then its imported in the index.js.
+
+
+### 2. Vite Bundler
+Create React project through Vite.  
+create project -> npm create vite@latest
+
+In package.json -> devDependencies are use for development, doesnot go in the production. 
+
+Node modules are not present here. To install it -> npm i.
+
+npm run dev -> to start the project. 
+
+#### Folder Structure
+
+- **src:** It have **App.jsx** and **main.jsx**.
