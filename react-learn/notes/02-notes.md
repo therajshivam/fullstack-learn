@@ -87,6 +87,8 @@ Simple file is created, For basic react, it can be done in .js extention while i
 
 In the file, a function is created, where HTML is returned. Then this function is exported , and its imported in the App.js or App.jsx. Here, in App function, the component function is used, as a html custom element. But in this return only one html tag can be returned. Hence, <></> fragments can be done to wrap all the html elements inside it.
 
+Good Practices : In basic react app too, we follow convention, if html is returned in component file. Then it will be .jsx file.
+
 ## Learnings :
 
 1. While making components in create-react-app or vite; naming convention of function should be start from capital letter. Otherwise throws error.
