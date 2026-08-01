@@ -24,7 +24,7 @@ The goal of React Fiber is to increase its suitability for areas like animation,
 
 Other key features include the ability to pause, abort, or reuse work as new updates come in; the ability to assign priority to different types of updates; and new concurrency primitives.
 
-Hydration process : the whole web layout is painted and when js is injected, this process is called hydration.
+Hydration process : Hydration is the process where React attaches JavaScript behavior to HTML that has already been rendered on the server.
 
 ## What is reconciliation?
 *reconciliation*  
