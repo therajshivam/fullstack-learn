@@ -25,3 +25,5 @@ It returns two things in a formate of array.
 
 `let [counter, setCounter] = useState(15)`    
 counter variable have default value of 15.
+
+[code](../03counter-hooks/src/App.jsx)
