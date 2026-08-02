@@ -1,6 +1,6 @@
 # React `useState` & `onClick`
 
-[code](../05-bg-changer/src/App.jsx)
+[Code](../05-bg-changer/src/App.jsx)
 
 ## `useState()`
 
