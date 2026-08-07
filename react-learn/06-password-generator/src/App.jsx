@@ -12,7 +12,6 @@ function App() {
   const passwordRef = useRef(null)
 
   
-
   // password generator method
   // we have to call this method many times(numbers, length, chars), for the optimised way : useCallback()
   // useCallback is a react hook that lets us cache a function defination between re-renders.
@@ -31,15 +30,8 @@ function App() {
 
   }, [length, numberAllowed, charAllowed, setPassword]) // these dependencies are for optimisation by keeping in cache
 
-  const copyPasswordToClipboard = useCallback(()=>{
-    // window can be use here as we are working with core react, as the whole code with compile as js and in browser when js will run then we have access to window object
-    passwordRef.current?.select();
-    passwordRef.current?.setSelectionRange(0, 50)
-    window.navigator.clipboard.writeText(password)
-  },[password])
 
   // why setPassword is pass into useCallback dependencies? -- for optimisation (memoization)
-
 
   // after page load, password should fill in the input box.
 
@@ -56,6 +48,12 @@ function App() {
   },[length, numberAllowed, charAllowed, passwordGenerator]) // these dependencies are for reload the generatePassword method
 
 
+  const copyPasswordToClipboard = useCallback(()=>{
+    // window can be use here as we are working with core react, as the whole code with compile as js and in browser when js will run then we have access to window object
+    passwordRef.current?.select();
+    // passwordRef.current?.setSelectionRange(0, 50)
+    window.navigator.clipboard.writeText(password)
+  },[password])
   
 
 
