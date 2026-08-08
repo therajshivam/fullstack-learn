@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='min-h-screen w-full bg-gray-900 text-white '>
-      <h1 className='text-center text-4xl p-5'>Hooks</h1>
+      <h1 className='text-center text-4xl p-5 font-extrabold font-mono'>Hooks</h1>
       <UseState />
     </div>
   )

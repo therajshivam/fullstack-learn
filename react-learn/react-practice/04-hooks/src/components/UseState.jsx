@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function UseState() {
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(5)
 
     const increment = ()=>{
-        if (count < 100) {
+        if (count < 10) {
         setCount(prev => prev + 1)
         }
     }
