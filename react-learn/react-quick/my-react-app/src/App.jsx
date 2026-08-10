@@ -1,4 +1,5 @@
-import Student from "./Student"
+// import Student from "./Student"
+import UserGreeting from "./UserGreeting"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     // </>
 
     <>
+      <UserGreeting isLoggedIn={false} username="BroCode" />
     </>
   )
 }
