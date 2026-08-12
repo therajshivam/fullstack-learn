@@ -4,14 +4,18 @@ function UseState() {
     const [count, setCount] = useState(5)
 
     const increment = ()=>{
-        if (count < 10) {
+        if (count < 15) {
         setCount(prev => prev + 1)
         }
     }
     const decrement = ()=>{
-        if (count > 0) {
+        if (count > 3) {
         setCount(prev=>prev-1)
         }
+    }
+
+    const reset = () => {
+      setCount(5)
     }
 
   return (
@@ -29,6 +33,11 @@ function UseState() {
       className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition"
       onClick={decrement}
       >Decrement</button>
+      <button
+      onClick={reset}
+      className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition"
+      >Reset
+      </button>
       </div>
 
     </div>
