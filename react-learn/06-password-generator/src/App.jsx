@@ -138,3 +138,12 @@ function App() {
 
 
 export default App
+
+
+/*
+1. variables select using usestate.
+2. passwordgenerator method created and optimised using usecallback.
+3. then used useeffect to call the passwordgenerator method. current understanding is that useeffect call on first render or on the update of its dependencies.
+4. created a copytoclipboard method. 
+5. to give user feedback used useref and passed the reference to the input field.
+*/
