@@ -1,10 +1,10 @@
 import './App.css'
 
 function App() {
-
+  
   return (
     <>
-     <h1 className='text-xl font-bold text-center'>hello</h1>
+     <h1 className='text-3xl font-bold bg-orange-500 text-center'>Currency Coverter</h1>
     </>
   )
 }
