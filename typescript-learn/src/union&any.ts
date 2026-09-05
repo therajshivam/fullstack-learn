@@ -9,7 +9,7 @@ subs = '1M'
 
 let airlineSeat : 'aisle' | 'window' | 'middle' = 'aisle'
 airlineSeat = 'window'
-
+ 
 // any : basically turns off TypeScript's type checking for that value.
 const orders = ['12', '20', '28', '42']
 let currentOrder: string | undefined;

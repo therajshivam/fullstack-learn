@@ -8,4 +8,4 @@ let channelName = "ChaiAurCode"
 // type annotation : Explicitly specify the type of a variable.
 let chaiFlavour: string = "masala chai"
 chaiFlavour = "Ginder tea"
-// chaiFlavour = 2 ---- throws error
+// chaiFlavour = 2 // throws error
