@@ -22,6 +22,5 @@ function orderChai(size: "medium" | "small" | "large" | number) {
     if(size === 'medium' || size === 'large') {
         return 'make extra chai'
     }
-    return `chai order #${size} numbers`
+    return `chai order #${size} numbers` 
 }
-
