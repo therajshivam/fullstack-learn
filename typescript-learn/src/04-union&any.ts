@@ -24,6 +24,3 @@ console.log(currentOrder);
 // summary : 
 // - 'unions' can be used on default datatypes and we can make customised datatypes.
 // - we should avoid 'any' as much we can.
-
-
-
